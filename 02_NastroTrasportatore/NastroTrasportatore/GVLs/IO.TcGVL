@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="IO" Id="{e6edd6f2-0d29-47f5-af6f-9c4dec7700ea}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+
+VAR_GLOBAL
+	start  : BOOL;
+	stop   : BOOL;
+	emg    : BOOL;
+	ack    : BOOL;
+	
+	fc1    : BOOL;
+	fc2    : BOOL;
+	
+	H1     : BOOL;
+	HEMG   : BOOL;
+	
+	M      : BOOL;
+	libero : BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

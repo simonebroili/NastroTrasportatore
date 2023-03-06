@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="STATI" Id="{177f8239-fd7e-4c9b-8154-922e73aee9f1}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+
+TYPE STATI :
+(
+	S0,
+	S1,
+	S2,
+	S3,
+	SE,
+	SA
+);
+END_TYPE]]></Declaration>
+  </DUT>
+</TcPlcObject>

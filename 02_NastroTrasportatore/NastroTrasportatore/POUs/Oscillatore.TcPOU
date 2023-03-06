@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="Oscillatore" Id="{8ebba2c8-e785-4018-9964-69fd89c92b7c}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK Oscillatore
+
+VAR_INPUT
+	enable : BOOL;
+	t_high : TIME;
+	t_low  : TIME;
+END_VAR
+
+VAR_OUTPUT
+	q      : BOOL;
+END_VAR
+
+VAR
+	t1     : TON();
+	t2     : TON();
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[t1(in := enable, );]]></ST>
+    </Implementation>
+    <LineIds Name="Oscillatore">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
