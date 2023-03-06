@@ -10,6 +10,7 @@ VAR_INPUT
 	ack    : BOOL;
 	fc1    : BOOL;
 	fc2    : BOOL;
+	fc3    : BOOL;
 END_VAR
 
 VAR_OUTPUT
