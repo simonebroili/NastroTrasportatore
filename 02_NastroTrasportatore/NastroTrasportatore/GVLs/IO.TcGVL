@@ -12,6 +12,8 @@ VAR_GLOBAL
 	fc1    : BOOL;
 	fc2    : BOOL;
 	
+	pippo  : INT;
+	
 	H1     : BOOL;
 	HEMG   : BOOL;
 	
